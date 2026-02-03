@@ -1,0 +1,4 @@
+- cleanup old repos
+- rotate temp stuff
+- move staging things to GridLab
+- eventually move entire forum repo to GridLab
