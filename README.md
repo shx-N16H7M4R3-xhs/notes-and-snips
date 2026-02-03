@@ -1,2 +1,3 @@
 # notes-and-snips
-Just messy leftovers
+
+random snippets so i stop losing them.
