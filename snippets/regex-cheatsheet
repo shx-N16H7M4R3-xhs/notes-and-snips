@@ -1,0 +1,26 @@
+\d	Most engines: one digit from 0 to 9
+\d	.NET, Python 3: one Unicode digit in any script
+\w	Most engines: "word character": ASCII letter, digit or underscore
+\w	.Python 3: "word character": Unicode letter, ideogram, digit, or underscore
+\w	.NET: "word character": Unicode letter, ideogram, digit, or connector
+\s	Most engines: "whitespace character": space, tab, newline, carriage return, vertical tab
+\s	.NET, Python 3, JavaScript: "whitespace character": any Unicode separator
+\D	One character that is not a digit as defined by your engines
+\W	One character that is not a word character as defined by your engines
+\S	One character that is not a whitespace character as defined by your engines
+
++	One or more	Version
+{3}	Exactly three times
+{2,4}	Two to four times
+{3,}	Three or more times
+*	Zero or more times
+?	Once or none
+
+^	Start of string or start of line depending on multiline mode.
+$	End of string or end of line depending on multiline mode. Many engine-dependent subtleties.
+\A	Beginning of string
+\z	Very end of the string
+\Z	End of string
+\G	Beginning of String or End of Previous Match
+\b	Word boundary
+\B	Not a word boundary
